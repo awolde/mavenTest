@@ -5,7 +5,7 @@ import static io.restassured.path.json.config.JsonPathConfig.NumberReturnType.DO
 //import static org.hamcrest.Matchers.*;
 
 public class test {
-  @Test
+//  @Test
   public void ApiTest() {
     System.out.print("hi there");
   }
