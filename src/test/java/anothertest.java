@@ -3,6 +3,6 @@ import static io.restassured.RestAssured.given;
 
 public class anothertest {
   public static void main (String[] args) {
-    RestAssured.baseURI="https://maps.googleapis.com";
+		 given().when().get("http://www.google.com").then().statusCode(200);
   }
 }
