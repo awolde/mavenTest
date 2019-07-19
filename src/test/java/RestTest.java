@@ -5,7 +5,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class RestTest extends test{
 
-   public String url="http://172.18.0.1:8090";
+   public String url="http://172.17.0.1:8090";
 
    @Test
 	 public void makeSureServerIsUp() {
