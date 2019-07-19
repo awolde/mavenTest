@@ -1,2 +1,2 @@
 # mavenTest
-Sample repo to demo CI/CD with Jenkins and Maven.
+Sample repo to demo CI/CD with Jenkins and Maven..
