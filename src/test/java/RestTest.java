@@ -18,7 +18,7 @@ public class RestTest extends test{
 	 }
 
 	@Test
-	public void agentTest() {
+	public void agentTesting() {
 		given().when().get(url+"/stream/1").then()
       .body("headers.User-Agent",equalTo("Apache-HttpClient/4.5.3 (Java/1.8.0_212)"))
       .statusCode(200);
